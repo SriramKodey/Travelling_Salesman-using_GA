@@ -1,6 +1,7 @@
 import numpy as np
 import random
 from city import city
+from city import plot
 from matplotlib import pyplot as plt
 from GA import solve
 
@@ -16,15 +17,6 @@ def make_cities():
 
     return cities
 
-def plot(cities):
-    x = []
-    y = []
-    for i in range(50):
-        x.append(cities[i].x)
-        y.append(cities[i].y)
-
-    plt.plot(x, y, 'bo')
-    plt.show()
 
 def geneticAlgo(cities):    
     solve(cities)
