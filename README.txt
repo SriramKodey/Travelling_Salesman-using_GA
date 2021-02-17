@@ -1,6 +1,6 @@
 Please Run the main.py file, with both GA.py and city.py placed in the same folder as main.py.
 
-	1) solve() in GA.py has the population_size, Crossover_number, mutation_rate and defined.
+	1) solve() in GA.py has the population_size, Crossover_number and mutation_rate defined.
 	   These can be changed to make the solution more accurate.
 	   Deafault values are pop_size = 150, crossover = 80/150, mutation_rate = 0.001 and 500 iters.
 
