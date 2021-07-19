@@ -10,4 +10,4 @@ Please Run the main.py file, with both GA.py and city.py placed in the same fold
 	3) To use Manhattan distance, go to solve() in GA.py file and change 
 	   genAlg.generate_distance_table() to genAlg.generate_manhattan_disance_table().
 
-Thank You
+Order Crossover function was utilised.
